@@ -1,14 +1,12 @@
 import React from "react";
 
 import "./homepage.css";
-import AcUnitIcon from "@material-ui/icons/AcUnit";
-import LocalTaxiIcon from "@material-ui/icons/LocalTaxi";
-import OpenWithRoundedIcon from "@material-ui/icons/OpenWithRounded";
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import { IconButton } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
-import SectionHeading from "../components/sectionHeading";
+import ServicesOffered from "../components/servicesoffered";
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -59,54 +57,8 @@ function HomePage() {
         </div>
       </div>
 
-      <section id="sectionServiceOffered">
-        <SectionHeading
-          heading1="Service Offered"
-          heading2="Wide range of services offered"
-        />
-      </section>
+    <ServicesOffered />
 
-      <div className="secondView">
-        <div className="frontPageBlocks">
-          <AcUnitIcon style={{ fontSize: 70 }} />
-          <h2>Ac Taxi Services</h2>
-          We provide affordable AC taxi services for your full comfort and
-          convenience to reach to your destination.
-          <p></p>
-        </div>
-        <div className="frontPageBlocks">
-          <LocalTaxiIcon style={{ fontSize: 70 }} />
-          <h2>Ac Taxi Services</h2>
-          We provide affordable AC taxi services for your full comfort and
-          convenience to reach to your destination.
-          <p></p>
-        </div>
-        <div className="frontPageBlocks">
-          <OpenWithRoundedIcon style={{ fontSize: 70 }} />
-          <h2>Ac Taxi Services</h2>
-          We provide affordable AC taxi services for your full comfort and
-          convenience to reach to your destination.
-          <p></p>
-        </div>
-        <div className="frontPageBlocks">
-          <h2>Ac Taxi Services</h2>
-          We provide affordable AC taxi services for your full comfort and
-          convenience to reach to your destination.
-          <p></p>
-        </div>
-        <div className="frontPageBlocks">
-          <h2>Ac Taxi Services</h2>
-          We provide affordable AC taxi services for your full comfort and
-          convenience to reach to your destination.
-          <p></p>
-        </div>
-        <div className="frontPageBlocks">
-          <h2>Ac Taxi Services</h2>
-          We provide affordable AC taxi services for your full comfort and
-          convenience to reach to your destination.
-          <p></p>
-        </div>
-      </div>
     </div>
   );
 }

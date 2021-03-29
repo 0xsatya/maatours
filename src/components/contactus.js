@@ -1,9 +1,5 @@
 import {
-  FormControl,
-  InputLabel,
   makeStyles,
-  MenuItem,
-  Select,
   TextField,
 } from "@material-ui/core";
 import React from "react";
@@ -48,7 +44,7 @@ function ContactUs() {
 
   return (
     <div className="contactUs">
-      <section id="sectionContactUs"> </section>
+      <section id="sectionContactUs" className="sectionBar"> </section>
       <SectionHeading
         heading1="ContactUs"
         heading2="You may reach to us at below address"

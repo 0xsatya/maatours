@@ -6,7 +6,7 @@ import SectionHeading from "./sectionHeading";
 function Gallery() {
   return (
     <div className="gallery">
-    <section id="sectionGallery"> </section>
+    <section id="sectionGallery" className="sectionBar"> </section>
         <SectionHeading heading1="Gallery" heading2="Our Photo Gallery"/>
 
       <div className="imageGallery">

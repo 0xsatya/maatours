@@ -38,3 +38,8 @@
     background-color: rgb(241, 235, 235);
     cursor: pointer;
 }
+.sectionBar{
+    height: 80px;
+    width: 100vw;
+    background-image: linear-gradient(white, #f3eceb, white );
+}
