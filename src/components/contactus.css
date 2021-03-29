@@ -1,0 +1,40 @@
+.contactusSection {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactImg {
+  width: 55vw;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactImgDetail {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  background-color: white;
+}
+.contactDetailSection {
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex: 1;
+  background-image: linear-gradient(#ece2e1, white, #ece2e1 );
+  margin-left: 5px;
+
+}
+.contactForm > form { 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}

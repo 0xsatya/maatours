@@ -1,0 +1,40 @@
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.aboutusContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    font-size: larger;
+}
+.aboutusContent > img {
+    width: 40vw;
+    margin: 2px;
+}
+.aboutusContent > img:hover {
+  -moz-box-shadow: 0 0 10px rgb(100, 82, 82);
+  -webkit-box-shadow: 0 0 10px rgb(83, 67, 67);
+  box-shadow: 0 0 10px rgb(145, 48, 48);
+  opacity: .9;
+  
+}
+.aboutusContentData {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 10px;
+    background-image: linear-gradient(135deg,#f1eae9 , white);
+    margin-left: 5px;
+}
+.aboutusContentData > span {
+    margin-top: 20px;
+}
+.aboutusContentData > h3:hover {
+    background-color: rgb(241, 235, 235);
+    cursor: pointer;
+}

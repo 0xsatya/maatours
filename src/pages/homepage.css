@@ -1,0 +1,118 @@
+.homepage {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.frontImgDiv {
+  height: 80vh;
+  width: 99vw;
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  overflow: hidden;
+  margin-top: -130px;
+}
+.homepageBookDiv {
+  height: 150px;
+  width: 60vw;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: white;
+  opacity: 0.7;
+  position: absolute;
+}
+.bookDiv {
+  display: flex;
+  flex-direction: column;
+}
+.bookForm {
+  display: flex;
+  flex-direction: row;
+}
+.firstView {
+  height: 95vh;
+  width: 99vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.firstView:hover {
+  transform: scale(1.1);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.frontPageBlockPageInfo {
+  height: 80px;
+  padding: 25px;
+  font-size: x-large;
+  font-weight: bold;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 231, 231);
+  margin-top: 20px;
+}
+.contentHeading {
+  font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT,
+    Times New Roman, serif;
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.contentHeadingLarge {
+  font-size: xxx-large;
+  font-weight: bold;
+}
+.secondView {
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.frontPageBlocks {
+  width: 25vw;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: rgb(236, 231, 231);
+  font-size: larger;
+}
+
+.frontPageBlocks:hover {
+  background-color: #2e4650;
+  color: white;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.back-to-top-wrapper {
+    position: absolute;
+    top: 100vh;
+    right: 0.25rem;
+    bottom: -5em;
+    width: 3em;
+    pointer-events: none;
+ }
+
+

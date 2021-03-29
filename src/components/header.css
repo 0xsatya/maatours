@@ -1,0 +1,71 @@
+.sticky-header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 10px;
+  height: 80px;
+  width: 70vw;
+  background-color: #2e4650;
+  color: white;
+  margin: 10px;
+  z-index: 10;
+  
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+.logo > img {
+  width: 150px;
+  height: 70px;
+  border-radius: 10px;
+}
+.logo > img:hover {
+  -moz-box-shadow: 0 0 10px rgb(100, 82, 82);
+  -webkit-box-shadow: 0 0 10px rgb(83, 67, 67);
+  box-shadow: 0 0 10px #ccc;
+  opacity: .7;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menuLink a {
+  padding: 5px 10px;
+  height: 30px;
+  font-size: larger;
+  margin: 0 5px;
+  text-decoration: none;
+     color: currentColor;
+}
+
+.menuLink > a {
+    text-decoration: none;
+     color: currentColor;
+}
+.menuLink a:hover {
+  background-color: #d3dde2 !important;
+  color: #2e4650;
+  cursor: pointer;
+
+}
+.mainmenu_link{
+	text-decoration: none;
+	font-size:14px;
+}
+ 
+.loginLink {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 10px;
+  font-size: larger;
+  width: 5vw;
+}
+.loginLink:hover {
+  font-weight: bold;
+}
